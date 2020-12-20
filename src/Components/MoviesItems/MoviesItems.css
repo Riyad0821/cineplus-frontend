@@ -1,0 +1,18 @@
+.cardd{
+    height:382px;
+    width: 300px;
+    border: 1px solid gray;
+    background-repeat: no-repeat;
+    background-size:100%;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    padding-top: 300px;
+    text-align: center;
+    margin:10px 10px;
+}
+.item-title{
+    height: 80px;
+    border-radius: 5px;
+    padding: 5px;
+}
