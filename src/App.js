@@ -15,7 +15,8 @@ import Movies from './Components/Movies/Movies';
 import NavBar from './Components/Navbar/NavBar';
 import Booking from './Components/Booking/Booking';
 import LoginA from './Components/LoginAlter/sign-in/LoginA';
-import SignUp from './Components/LoginAlter/sign-up/SignUp'
+import SignUp from './Components/LoginAlter/sign-up/SignUp';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 
 export const UserContext = createContext();
 
@@ -30,18 +31,15 @@ function App() {
           <Route path="/home">
             <Home />
           </Route>
-          <Route path="/login">
-            <Login />
-          </Route>
           <Route path="/loginA">
             <LoginA />
           </Route>
           <Route path="/signup">
             <SignUp />
           </Route>
-          <Route path="/movies">
+          <PrivateRoute path="/movies">
             <Movies />
-          </Route>
+          </PrivateRoute>
           <Route path="/booking/:movieName">
             <Booking />
           </Route>

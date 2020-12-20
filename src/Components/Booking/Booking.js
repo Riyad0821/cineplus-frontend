@@ -210,6 +210,15 @@ const bookingData = [
 ]
 
 const Booking = () => {
+    // const handleAddMovies = () => {
+    //     fetch('http://localhost:5000/addBooking', {
+    //         method: 'POST',
+    //         headers: {
+    //             'Content-Type': 'application/json'
+    //         },
+    //         body: JSON.stringify(bookingData)
+    //     })
+    // }
     const [booking] = useState(bookingData);
     const [selectedDate, setSelectedDate] = useState(new Date());
     const handleDateChange = date => {
