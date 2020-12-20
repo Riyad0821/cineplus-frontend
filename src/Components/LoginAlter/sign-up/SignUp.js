@@ -89,7 +89,7 @@ const SignUp = () => {
 								name="firstName"
 								value={user.firstName}
 								onChange={handleInput}
-								placeholder="first Name"
+								placeholder="First Name"
 								required
 							/>
 						</div>
@@ -122,7 +122,7 @@ const SignUp = () => {
 								value={user.password}
 								onChange={handleInput}
 								className="form-control"
-								placeholder="password"
+								placeholder="Password"
 								required
 							/>
 						</div>
@@ -131,14 +131,14 @@ const SignUp = () => {
 								type="password"
 								name="confirmPass"
 								className="form-control"
-								placeholder="password"
+								placeholder="Confirm Password"
 								required
 							/>
 							<p className="text-danger mt-2" id="confirmError" />
 						</div>
 
 						<div className="col-md-12 mt-3 mb-4">
-							<input className="btn form-control btn-custom" type="submit" value="Create an account" />
+							<input className="btn login-btn form-control btn-custom" type="submit" value="Create an account" />
 						</div>
 						<p className="text-center mt-3">
 							Already have an account?

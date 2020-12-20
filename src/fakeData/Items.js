@@ -5,161 +5,91 @@ var data = [
         movieName: 'Forest Gump',
         date: '21/12/2020',
         time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/wrybaxt.jpg'
+        img: 'https://i.imgur.com/wrybaxt.jpg',
+        seats: 40
     },
     {
         id: 2,
         bgColor:'violet',
-        movieName: 'Forest Gump',
+        movieName: 'Good Will Hunting',
         date: '21/12/2020',
         time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/AE5TwCN.jpg'
+        img: 'https://i.imgur.com/nbKJsFq.png',
+        seats: 40
     },
     {
         id: 3,
         bgColor:'blue',
-        movieName: 'Forest Gump',
+        movieName: 'Homeless to Harvard',
         date: '21/12/2020',
         time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/03Zva9e.jpg'
+        img: 'https://i.imgur.com/SIptVVy.jpg',
+        seats: 40
     },
     {
         id: 4,
         bgColor:'green',
-        movieName: 'Forest Gump',
+        movieName: 'Avatar',
         date: '21/12/2020',
         time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
+        img: 'https://i.imgur.com/eHZRpL0.png',
+        seats: 40
     },
     {
         id: 5,
         bgColor: 'blue',
-        movieName: 'Forest Gump',
+        movieName: 'Bridge to Terabithia',
         date: '21/12/2020',
         time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/03hs6l5.jpg'
+        img: 'https://i.imgur.com/RLJUi2X.jpg',
+        seats: 40
 
     },
     {
         id: 6,
         bgColor:'green',
-        movieName: 'Forest Gump',
+        movieName: 'Turkler Geliyor',
         date: '21/12/2020',
         time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
+        img: 'https://i.imgur.com/FELKs00.jpg',
+        seats: 40
 
     },
     {
         id: 7,
         bgColor:'goldenrod',
-        movieName: 'Forest Gump',
+        movieName: '12 Angry Man',
         date: '21/12/2020',
         time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
+        img: 'https://i.imgur.com/9gZkpc5.jpg',
+        seats: 40
     },
     {
         id: 8,
         bgColor:'violet',
-        movieName: 'Forest Gump',
+        movieName: 'Spider Man',
         date: '21/12/2020',
         time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
+        img: 'https://i.imgur.com/SMtT3Aa.jpg',
+        seats: 40
     },
     {
         id: 9,
         bgColor:'green',
-        movieName: 'Forest Gump',
+        movieName: 'King Kong',
         date: '21/12/2020',
         time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
+        img: 'https://i.imgur.com/B9gJ6Fu.jpg',
+        seats: 40
     },
     {
         id: 10,
         bgColor:'blue',
-        movieName: 'Forest Gump',
+        movieName: '3 Idiots',
         date: '21/12/2020',
         time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
-    },
-    {
-        id: 11,
-        bgColor:'goldenrod',
-        movieName: 'Forest Gump',
-        date: '21/12/2020',
-        time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
-    },
-    {
-        id: 12,
-        bgColor:'violet',
-        movieName: 'Forest Gump',
-        date: '21/12/2020',
-        time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
-    },
-    {
-        id: 13,
-        bgColor:'blue',
-        movieName: 'Forest Gump',
-        date: '21/12/2020',
-        time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
-    },
-    {
-        id: 14,
-        bgColor:'green',
-        movieName: 'Forest Gump',
-        date: '21/12/2020',
-        time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
-    },
-    {
-        id: 15,
-        bgColor:'violet',
-        movieName: 'Forest Gump',
-        date: '21/12/2020',
-        time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
-    },
-    {
-        id: 16,
-        bgColor:'goldenrod',
-        movieName: 'Forest Gump',
-        date: '21/12/2020',
-        time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
-    },
-    {
-        id: 17,
-        bgColor:'violet',
-        movieName: 'Forest Gump',
-        date: '21/12/2020',
-        time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
-    },
-    {
-        id: 18,
-        bgColor:'goldenrod',
-        movieName: 'Forest Gump',
-        date: '21/12/2020',
-        time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
-    },
-    {
-        id: 19,
-        bgColor:'green',
-        movieName: 'Forest Gump',
-        date: '21/12/2020',
-        time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
-    },
-    {
-        id: 20,
-        bgColor:'blue',
-        movieName: 'Forest Gump',
-        date: '21/12/2020',
-        time: '4:00 PM - 6:00 PM',
-        img: 'https://i.imgur.com/eHZRpL0.png'
+        img: 'https://i.imgur.com/XRpDMnP.jpg',
+        seats: 40
     }
     
 ];

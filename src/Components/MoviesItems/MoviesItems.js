@@ -17,8 +17,8 @@ const MoviesItems = (props) => {
                     backgroundColor: `${(bgColor)}`
                 }}>
                 <h3 >{movieName}</h3>
-                <p>{date}: {time}</p>
-                <p>{time}</p>
+                <p>Date: {date}</p>
+                <p>Show Time: {time}</p>
             </div>
         </div>
     );

@@ -1,0 +1,44 @@
+.footer{
+    margin-bottom: 50px;
+  }
+  .footer p{
+    font-size: 20px;
+    color:gray;
+  }
+  .inputWidth{
+    width: 50%;
+    margin-bottom: 100px;
+  }
+  .inputWidth input{
+    padding: 10px;
+  }
+  .inputBtn{
+    color: #fff;
+    border: none;
+    width: 50%;
+  }
+  .footerImg{
+    height: 80px;
+  }
+  .behanceLogo{
+    width: 35px;
+    height: 35px;
+  }
+  .footerList img{
+    margin-left: 20px;
+  }
+  .footerList ul li{
+    text-align: left;
+  }
+  .list-group-item{
+      border: none;
+  }
+  .search{
+      box-shadow: 10px 0px 10px 10px lightgrey;
+      padding: 10px;
+      border-radius: 5px;
+  }
+  .form-control{
+      border: none;
+      padding:10px;
+  }

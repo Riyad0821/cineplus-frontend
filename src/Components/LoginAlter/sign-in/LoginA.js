@@ -141,7 +141,7 @@ const LoginA = () => {
 								type="password"
 								name="password"
 								className="form-control"
-								placeholder="password"
+								placeholder="Password"
 								value={user.password}
 								onChange={handleEmailPass}
 								required
@@ -156,7 +156,7 @@ const LoginA = () => {
 						</div>
 
 						<div className="col-md-12 mt-3 mb-4">
-							<input className="btn form-control btn-custom" type="submit" value="Log In" />
+							<input className="btn form-control btn-custom login-btn" type="submit" value="Log In" />
 						</div>
 						<p className="text-center mt-3">
 							Don't Have Account?

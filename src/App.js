@@ -40,11 +40,9 @@ function App() {
             <SignUp />
           </Route>
           <Route path="/movies">
-          <NavBar />
             <Movies />
           </Route>
           <Route path="/booking/:movieName">
-          <NavBar />
             <Booking />
           </Route>
           <Route exact path="/">
